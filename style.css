@@ -138,10 +138,50 @@ a:visited {
 
 footer {
     font-size:14px;
+    opacity:0.5;
+}
+
+footer a {
+    text-decoration:none;
+    color:#70757a;
+    padding-left: 13px;
+    padding-right:13px;
+}
+
+footer a:hover {
+    text-decoration:underline;
+}
+
+#flex_footer {
+    display:flex;
+    flex-direction: column;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    background-color:#f2f2f2;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+
+}
+
+#flex_footer_2 {
+    display:flex;
+    justify-content: space-between;
+    border-top: 1px solid lightgrey;
+    padding:13px;
+
+}
+
+#country {
+    display:flex;
+    justify-content:space-between;
+    padding:13px;
+    padding-left:26px;
 }
 
 #tools {
-    height: 20px;
-    width:20px;
+    height: 23px;
+    width:23px;
     margin-right: 13px;
 }
