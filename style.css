@@ -5,6 +5,7 @@
 
 header {
     padding-top: 7px;
+
 }
 nav a {
     text-decoration: none;
@@ -29,11 +30,6 @@ nav {
     min-width: 275px;
 }
 
-#Gmail{
-    margin-right: 13px;
-    display:inline-block;
-}
-
 a:visited {
     color:black;
 }
@@ -49,7 +45,6 @@ a:visited {
 }
 #sign_in a {
     color:white;
-    t
 }
 
 #sign_in a:hover {
@@ -57,7 +52,89 @@ a:visited {
     
 }
 
+#body_content {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
 
+#search_bar {
+    width:527px;
+    height:34px;
+    background:transparent;
+    border:none;
+    padding-left:15px;
+    font-size:16px;
+    
+}
+
+#search:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+#search {
+    display:flex;
+    align-items:center;
+    width:582px;
+    height: 44px;
+    margin-top:30px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+}
+
+#search_logo {
+    width:20px;
+    height: 20px;
+    margin-left:15px;
+}
+
+#buttons {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    width:584px;
+    height:58px;
+    padding-top:18px;
+
+}
+
+#buttons a {
+    text-decoration:none;
+    color:#3c4043;
+}
+#buttons button {
+    border-radius:4px;
+    border:1px solid #f8f9fa;
+    font-size:14px;
+    align-items:center;
+    
+}
+
+#buttons button:hover {
+    border:1px solid lightgrey;
+}
+
+#one {
+    width:153px;
+    height:36px;
+    background-color:#f8f9fa;
+    margin-right:10px;
+}
+
+#two {
+    width:167px;
+    height:36px;
+    background-color:#f8f9fa;
+}
+#logo {
+    padding-top:109px;
+    height:92px;
+    width: 272px;
+
+}
 
 footer {
     font-size:14px;
